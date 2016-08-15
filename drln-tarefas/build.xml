@@ -1,0 +1,16 @@
+<project name="drln-tarefas"  xmlns:ivy="antlib:org.apache.ivy.ant" default="populate-deps">
+
+    <!-- ivy classpath -->
+    <path id="ivy.classpath">
+        <fileset dir="lib/ivy/">
+            <include name="*.jar"></include>
+        </fileset>
+    </path>
+    
+    <taskdef resource="org/apache/ivy/ant/antlib.xml" uri="antlib:org.apache.ivy.ant" classpathref="ivy.classpath"/>
+     
+    <target name="populate-deps">
+        <ivy:retrieve /> 
+    </target>
+     
+</project>

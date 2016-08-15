@@ -1,0 +1,11 @@
+<ivy-module version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
+
+    <info organisation="drln" module="drln-tarefas" />
+
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.springframework/spring-webmvc -->
+        <dependency org="org.springframework" name="spring-webmvc" rev="4.3.2.RELEASE"/>
+
+    </dependencies>
+
+</ivy-module>

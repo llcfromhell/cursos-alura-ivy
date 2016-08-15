@@ -1,0 +1,15 @@
+<project name="agenda"  default="atualiza-dependencias">
+	
+	<!-- ivy classpath -->
+	<path id="ivy.classpath">
+		<pathelement path="ivy-lib/" />
+	</path>
+	
+	<target name="atualiza-dependencias">
+		<path refid="ivy.classpath" />
+	
+	</target>
+
+	
+</project>
+
